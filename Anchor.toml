@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+tic_tac_toe = "9RVaNNtCJcKaJn414qawi9RGVgnbR6goHt27BvAaRVtx"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/henrijoelsedjame/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
